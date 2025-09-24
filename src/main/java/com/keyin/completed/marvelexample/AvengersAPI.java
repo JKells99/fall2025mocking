@@ -2,7 +2,7 @@
  * AvengersAPI.java
  * Interface for retrieving available Avengers heroes.
  */
-package com.keyin.marvelexample;
+package com.keyin.completed.marvelexample;
 
 import java.util.List;
 

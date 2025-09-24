@@ -2,7 +2,7 @@
  * JediTrainingService.java
  * Service for assessing the force level of Padawans.
  */
-package com.keyin.jediexample;
+package com.keyin.completed.jediexample;
 
 /**
  * Provides training assessment for Padawans using a ForceMeter.

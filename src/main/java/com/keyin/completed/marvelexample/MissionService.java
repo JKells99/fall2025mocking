@@ -2,7 +2,7 @@
  * MissionService.java
  * Service for assigning missions to Avengers heroes.
  */
-package com.keyin.marvelexample;
+package com.keyin.completed.marvelexample;
 
 import java.util.ArrayList;
 import java.util.List;
