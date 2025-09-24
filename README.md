@@ -2,6 +2,24 @@
 
 This project demonstrates unit testing and mocking in Java using two themed examples: **Avengers** and **Jedi**. It uses JUnit 5 and Mockito for writing and running tests.
 
+** Maven Dependencies Needed ** 
+```
+<dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.12.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>4.11.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+```
+
 ## Avengers Example
 
 **Classes:**
