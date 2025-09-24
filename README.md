@@ -74,3 +74,7 @@ void testStrongPadawan(){
 
 ## Summary
 This project provides clear examples of how to use mocking in Java unit tests to isolate and verify business logic. The Avengers and Jedi examples show how to mock dependencies and write effective, maintainable tests.
+
+## Links to mockito docs/videos 
+- https://www.baeldung.com/mockito-annotations
+-  
