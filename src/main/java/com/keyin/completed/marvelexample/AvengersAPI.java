@@ -14,5 +14,5 @@ public interface AvengersAPI {
      * Returns a list of available hero names.
      * @return List of hero names
      */
-    List<String> getAvailableHeroes();
+    List<String> getAvailableHeroes(); // Pretend that this makes a call to a DB and fetches us data, THis was the easiest way to show mocking without it being confusing
 }
