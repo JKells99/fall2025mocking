@@ -7,12 +7,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 public class JediServiceTest {
+
     JediTrainingService jediTrainingService;
 
     @Mock
@@ -35,6 +37,7 @@ public class JediServiceTest {
     void testWeakPadawan(){
         when(mockForceMeter.getForceLevel("Luke")).thenReturn(1);
         String result = jediTrainingService.assessPadawan("Luke");
-        Assertions.assertEquals("Much to lean they do Luke", result);
+        Assertions.assertEquals("Much to learn they do Luke", result);
+        System.out.println(result);
     }
 }

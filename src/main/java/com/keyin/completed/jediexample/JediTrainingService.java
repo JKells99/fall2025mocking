@@ -8,6 +8,7 @@ package com.keyin.completed.jediexample;
  * Provides training assessment for Padawans using a ForceMeter.
  */
 public class JediTrainingService {
+
     private final ForceMeter forceMeter;
 
     /**
@@ -28,6 +29,6 @@ public class JediTrainingService {
         if(forceLevel > 70) {
             return "Strong with the force " + padawanName + " is ";
         }
-        return "Much to lean they do " + padawanName;
+        return "Much to learn they do " + padawanName;
     }
 }
